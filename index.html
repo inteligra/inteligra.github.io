@@ -6,16 +6,40 @@
 		body {
 			background-color: #ecf0f1;
 		}
+		.container {
+			position: relative;
+    		width: 100%;
+		}
 		.logo {
+			position: absolute;
 			text-align: center;
-			margin-top: 20%;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+		.logo:before {
+		    content: ' ';
+		    display: inline-block;
+		    vertical-align: middle;
+		    height: 100%;
+		}
+		.logo img {
+			vertical-align: middle;
+    		display: inline-block;
+		}
+		.intel {
+			padding-top: 50%;
 		}
 	</style>
 </head>
 <body>
 
-	<div class="logo">
-		<img src="inteligra.png" alt="">
+	<div class="container">
+		<div class="intel"></div>
+		<div class="logo">
+			<img src="inteligra.png" alt="Inteligra Graphic Data">
+		</div>	
 	</div>
 
 </body>
