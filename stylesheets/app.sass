@@ -1,0 +1,82 @@
+
+
+// General
+html,
+body
+  margin: 0
+  padding: 0
+
+body
+  background-image: url("../images/pattern.png")
+
+#wrapper
+  //background-color: rgba(000, 000, 000, 0.6)
+  height: 100vh
+  flex-direction: row
+  display: flex
+
+.header
+  border-bottom: 1px solid #999
+  padding-bottom: 20px
+  margin-bottom: 40px
+  margin-top: 100px
+  .header-description
+    margin-bottom: 40px
+    padding-top: 20px
+  p
+    color: #00b3ee
+    line-height: normal
+  .header-sosmed
+    margin-top: 30px
+    ul
+      list-style: none
+      padding-left: 0
+      margin-bottom: 0
+      li
+        display: inline-block
+        margin-left: 5px
+        margin-right: 5px
+        i.fa
+          width: 30px
+          height: 30px
+          font-size: 14px
+          text-align: center
+          padding-top: 6px
+          border: 1px solid transparent
+          color: #302783
+          &:hover,
+          &:focus,
+          &:active
+            border-radius: 100%
+            padding-top: 6px
+            border: 1px solid #302783
+            text-align: center
+
+.contact
+  margin-top: 120px
+  .contact-title
+    text-align: center
+    margin-bottom: 30px
+    h4
+      color: #fff
+      font-size: 24px
+      border-left: 4px solid #00b3ee
+      width: 150px
+      display: block
+  .contact-form
+    .form-control
+      border: 1px solid #fff
+      box-shadow: none
+      &:focus
+        border: 1px solid #302783
+    .btn.btn-primary
+      background-color: rgba(000, 000, 000, 0.6)
+      border: 1px solid #000
+      &:hover,
+      &:focus,
+      &:active
+        background-color: #302783
+        border: 1px solid #302783
+.footer
+  p
+    color: #fff
