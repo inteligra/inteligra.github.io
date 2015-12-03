@@ -1,0 +1,24 @@
+{
+  "name": "inteligra.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candrawaskito/inteligra.github.io.git"
+  },
+  "author": "Candra Dwi Waskito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candrawaskito/inteligra.github.io/issues"
+  },
+  "homepage": "https://github.com/candrawaskito/inteligra.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.1.4"
+  }
+}
