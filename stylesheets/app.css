@@ -3,4 +3,12 @@ body {
   margin: 0;
   padding: 0; }
 
+body {
+  background-image: url("../images/pattern.png"); }
+
+#wrapper {
+  height: 100vh;
+  flex-direction: row;
+  display: flex; }
+
 /*# sourceMappingURL=app.css.map */
